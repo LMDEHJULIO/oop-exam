@@ -1,4 +1,7 @@
 package org.example;
 
-public class HourlyEmployee {
+public class HourlyEmployee extends Employee{
+    public HourlyEmployee(String name) {
+        super(name);
+    }
 }

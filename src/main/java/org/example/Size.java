@@ -3,7 +3,9 @@ package org.example;
 public enum Size {
     SMALL,
     MEDIUM,
-    LARGE,
-    XLARGE,
-    XXLARGE
+    LARGE;
+
+    public Size getSize(String size){
+        return this.valueOf(size);
+    }
 }
