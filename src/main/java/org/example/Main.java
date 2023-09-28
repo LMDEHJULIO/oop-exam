@@ -14,8 +14,9 @@ public class Main {
 
         System.out.println(hourlyEmployee1.getName());
 
-
-        Clothing[] clothingItems1 = {new Clothing("Flannel shirt", 50.00, Size.SMALL)};
+        Clothing[] clothingItems1 = {
+                new Clothing("Flannel shirt", 50.00, Size.SMALL),
+        };
 
         System.out.println(clothingItems1[0].getDescription());
 
